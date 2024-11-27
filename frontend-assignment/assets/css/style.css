@@ -1,0 +1,317 @@
+/* ======= Font Face || Quicksand ======== */
+
+@font-face {
+    font-family: 'montserrat-light';
+    src: url('../fonts/Montserrat-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url('../fonts/Montserrat-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'montserrat-medium';
+    src: url('../fonts/Montserrat-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'montserrat-semiBold';
+    src: url('../fonts/Montserrat-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'montserrat-bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'montserrat-extraBold';
+    src: url('../fonts/Montserrat-ExtraBold.ttf');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* ===== Common Classes ======= */
+
+/* Font Family */
+.montserrat-light {
+    font-family: 'montserrat-light';
+}
+
+.montserrat-regular {
+    font-family: 'montserrat-regular';
+}
+
+.montserrat-medium {
+    font-family: 'montserrat-medium';
+}
+
+.montserrat-semiBold {
+    font-family: 'montserrat-semiBold';
+}
+
+.montserrat-bold {
+    font-family: 'montserrat-bold';
+}
+
+.montserrat-extraBold {
+    font-family: 'montserrat-extraBold';
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    padding: 0 100px;
+    margin: 0 auto;
+}
+
+/* Font Size Classes*/
+
+
+/* Background Color Classes*/
+.bg-warm-grey {
+    background-color: rgb(248, 246, 247);
+}
+
+.bg-dark-grey {
+    background-color: rgb(226, 224, 209);
+}
+
+.bg-grey {
+    background-color: rgb(237, 235, 236);
+}
+
+.bg-orange {
+    background: linear-gradient(to bottom, #ea6425 0%, #de5727 28%, #cf4d29 52%, #d14c2b 54%, #cb482a 63%, #c6442e 76%, #c3402c 80%, #bb382e 100%) !important;
+}
+
+.bg-warm-orange {
+    background-color: rgb(249, 166, 26);
+}
+.bg-orange-new {
+    background-color: #ea6425;
+}
+
+.bg-pink {
+    background-color: #fef5f0;
+}
+
+.bg-warm-pink {
+    background: linear-gradient(to left, #ffffff 0%,#fffaf7 50%,#fef5f0 6%,#fef5f0 100%); 
+}
+
+
+.bg-primary {
+    background-color: rgb(0, 48, 91) !important;
+}
+
+.bg-green {
+    background-color: rgb(38, 186, 64);
+}
+
+
+/* Text Color Class */
+
+.text-black {
+    color: rgb(40, 40, 40) !important;
+}
+
+.text-orange {
+    color: #f38120;
+}
+
+.text-grey {
+    color: #939393;
+}
+
+
+
+/* Font Size Css */
+.fs-45 {
+    font-size: 45px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+/* ============ Common CSS =============== */
+
+
+/* Dropdown Type One */
+.dropdown.type-one .dropdown-toggle {
+    font-family: 'montserrat-medium';
+    font-size: 14px;
+    line-height: 16px;
+    color: rgb(40, 40, 40);
+    text-decoration: none;
+}
+
+.dropdown.type-one .dropdown-toggle::after {
+    content: url(/assets/images/icons/dropdown-black-icon.png);
+    border: none;
+    vertical-align: middle;
+    margin: 0;
+}
+
+/* Dropdown Type Two */
+
+.dropdown.type-two .dropdown-toggle {
+    font-family: 'montserrat-medium';
+    font-size: 16px;
+    line-height: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown.type-two .dropdown-toggle::after {
+    content: url(/assets/images/icons/dropdown-white-icon.png);
+    border: none;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.table.cust-table thead th {
+    font-family: 'montserrat-bold';
+    font-size: 14px;
+    color: rgb(40, 40, 40);
+    padding: 14px 16px;
+}
+
+.table.cust-table tbody td {
+    font-family: 'montserrat-medium';
+    font-size: 14px;
+    color: rgb(40, 40, 40);
+    padding: 14px 16px;
+}
+
+.table.cust-table thead th:first-child{
+    border-top-left-radius: 16px;
+}
+
+.table.cust-table thead th:last-child{
+    border-top-right-radius: 16px;
+}
+.table.cust-table tbody tr:last-child td {
+    border: none;
+}
+.table.cust-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 16px;
+}
+
+.table.cust-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 16px;
+}
+
+/* Common Form */
+
+.common-form label{
+    font-family: 'montserrat-medium';
+    font-size: 16px;
+    color: #f38120;
+    line-height: 20px;
+}
+
+.common-form .form-control {
+    font-family: 'montserrat-semiBold';
+    font-size: 16px;
+    color: lightgray;
+    border: 1px solid lightgray;
+    padding: 14px 16px;
+}
+
+.form-check-input:checked {
+    background-color: #f38120;
+    border-color: #f38120;
+}
+
+.cursor-ptr {
+    cursor: pointer;
+}
+
+.vr {
+    display: inline-block;
+    align-self: center;
+    width: 2px;
+    min-height: 1em;
+    background-color: #040404;
+    opacity: .25;
+    height: 12px;
+}
+
+
+.right-arrow-icon {
+    transform: rotate(267deg);
+    vertical-align: middle;
+}
+
+.br-16 {
+    border-radius: 16px;
+}
+
+.max-850-width {
+    max-width: 850px;
+    margin: auto;
+}
+
+.border-grey-1{
+    border: 1px solid lightgrey;
+}
+
+/* ============== Page Css Start ============= */
+.banner-sec .banner-car-img {
+    position: absolute;
+    top: -97px;
+    right: -65px;
+}
+
+/* =========== Media Query =========== */
+
+@media (max-width: 1399.98px) {
+    .container {
+        max-width: 1366px;
+        width: 100%;
+        padding: 0 50px;
+        margin: 0 auto;
+    }
+}
